@@ -32,18 +32,19 @@ html{
 }
 
 header{
-    display: flex;
+    margin-right: 1vw;
 }
 
 .presentation{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding-top: 7vw;
 }
 
 h1{
     font-family: OpenSans-ExtraBold;
-    font-size: 7vw;
+    font-size: 4vw;
     color: white;
     text-shadow: 3px 3px 6px black;
     text-align: center;
@@ -51,8 +52,31 @@ h1{
 
 h2{
     font-family: OpenSans-ExtraBold;
-    font-size: 3vw;
+    font-size: 2vw;
     color: white;
     text-shadow: 3px 3px 6px black;
     text-align: center;
+}
+
+#webtop{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    list-style: none;
+}
+
+li{
+    font-family: OpenSans-Regular;
+    font-size: 1vw;
+    color: white;
+    text-shadow: 3px 3px 6px black;
+    text-align: center;
+    padding: 0vw 1vw 0vw 1vw;
 }
